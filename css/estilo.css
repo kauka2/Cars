@@ -1,0 +1,14 @@
+h1 {
+    color:dodgerblue;
+}
+h1#page1 {
+    color:yellow;
+}
+
+h1.page2 {
+    color:brown;
+}
+
+body ul li {
+    color:deeppink;
+}
