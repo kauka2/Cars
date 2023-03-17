@@ -1,14 +1,85 @@
 h1 {
     color:dodgerblue;
+    border: 0.5rem dotted red;
 }
-h1#page1 {
-    color:yellow;
+h2, h3 ,h4, h5, h6 {
+    display: none;
 }
-
-h1.page2 {
-    color:brown;
-}
-
 body ul li {
-    color:deeppink;
+    color: beige;
+}
+
+p {
+    text-decoration: underline #ccc double 0.1rem;
+    text-indent: 1rem;
+}
+p.maiusculo {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 2rem;
+    word-spacing: 2rem;
+    color: yellowgreen;
+    font: italic small-caps bold 2rem monospace;
+    text-shadow: 0.2rem 0.2rem 0.3rem blue, 0 0 1rem red, o o 2rem green;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: cyan;
+}
+a:hover {
+    color: slateblue;
+}
+footer {
+    clear: both;
+    background: gray url("../img/Acura-NSX.jpg") no-repeat left bottom;
+    height: 1rem;
+}
+div {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: violet;
+    color: darkcyan;
+    border: 0.2 solid darkslateblue;
+    padding: 0.2rem;
+    font-size: 2rem;
+}h1#page1 {
+    color: chartreuse;
+    border: 0.3rem dashed chartreuse;
+}
+img {
+    width: 20rem;
+}
+ul {
+    list-style-type: square;
+}
+h1.page2 {
+    color: aliceblue;
+    border: 1rem groove aliceblue;
+    border-radius: 0.7rem;
+}
+ol {
+    list-style-type: upper-roman;
+}
+section img {
+    float: left
+}
+main.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem
+}
+main.flexbox {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main.flexbox article {
+    background-color: aquamarine;
+    margin: 1rem;
+    padding: 2rem;
 }
